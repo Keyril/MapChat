@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9BD779EF4F5D7CA21076469D /* Pods_MapChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100D23E3018FB5BC60CA4D5B /* Pods_MapChatTests.framework */; };
 		B58427A11FC6372400E0AD0F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58427A01FC6372400E0AD0F /* LoginVC.swift */; };
 		B58427A31FC6373600E0AD0F /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58427A21FC6373600E0AD0F /* SignUpVC.swift */; };
 		B58427A81FC6384700E0AD0F /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58427A71FC6384700E0AD0F /* MapVC.swift */; };
@@ -16,6 +17,7 @@
 		EDCD02581FC62C04008A80FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCD02571FC62C04008A80FE /* Assets.xcassets */; };
 		EDCD025B1FC62C04008A80FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCD02591FC62C04008A80FE /* LaunchScreen.storyboard */; };
 		EDCD02661FC62C04008A80FE /* MapChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCD02651FC62C04008A80FE /* MapChatTests.swift */; };
+		EE751FBA69AFFC31951593BE /* Pods_MapChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2274ED011DBEC65C28183 /* Pods_MapChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		058F986E78FCA8D232CC8F63 /* Pods-MapChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapChat/Pods-MapChat.release.xcconfig"; sourceTree = "<group>"; };
+		100D23E3018FB5BC60CA4D5B /* Pods_MapChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E2274ED011DBEC65C28183 /* Pods_MapChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MapChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FF71CD92B4DFECF424B8959 /* Pods-MapChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapChatTests/Pods-MapChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		692B4EE7D56A2539F2D1BD48 /* Pods-MapChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapChat/Pods-MapChat.debug.xcconfig"; sourceTree = "<group>"; };
+		B4391AFA644E08D100AAF675 /* Pods-MapChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapChatTests/Pods-MapChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		B58427A01FC6372400E0AD0F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		B58427A21FC6373600E0AD0F /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		B58427A71FC6384700E0AD0F /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE751FBA69AFFC31951593BE /* Pods_MapChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD779EF4F5D7CA21076469D /* Pods_MapChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A36CAF80138891B160D15E09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				692B4EE7D56A2539F2D1BD48 /* Pods-MapChat.debug.xcconfig */,
+				058F986E78FCA8D232CC8F63 /* Pods-MapChat.release.xcconfig */,
+				1FF71CD92B4DFECF424B8959 /* Pods-MapChatTests.debug.xcconfig */,
+				B4391AFA644E08D100AAF675 /* Pods-MapChatTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B58427A41FC6379000E0AD0F /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +114,8 @@
 				EDCD024F1FC62C04008A80FE /* MapChat */,
 				EDCD02641FC62C04008A80FE /* MapChatTests */,
 				EDCD024E1FC62C04008A80FE /* Products */,
+				A36CAF80138891B160D15E09 /* Pods */,
+				F53287B879B1F5014368FC92 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +152,15 @@
 			path = MapChatTests;
 			sourceTree = "<group>";
 		};
+		F53287B879B1F5014368FC92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13E2274ED011DBEC65C28183 /* Pods_MapChat.framework */,
+				100D23E3018FB5BC60CA4D5B /* Pods_MapChatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCD026A1FC62C04008A80FE /* Build configuration list for PBXNativeTarget "MapChat" */;
 			buildPhases = (
+				736FA6E976BE980D6F8093E7 /* [CP] Check Pods Manifest.lock */,
 				EDCD02491FC62C04008A80FE /* Sources */,
 				EDCD024A1FC62C04008A80FE /* Frameworks */,
 				EDCD024B1FC62C04008A80FE /* Resources */,
+				007F7BA2F03E238F34427B36 /* [CP] Embed Pods Frameworks */,
+				D81BFAD1590BB6F29BA68FCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDCD026D1FC62C04008A80FE /* Build configuration list for PBXNativeTarget "MapChatTests" */;
 			buildPhases = (
+				95859656D8BD42ACD5D1F8B4 /* [CP] Check Pods Manifest.lock */,
 				EDCD025D1FC62C04008A80FE /* Sources */,
 				EDCD025E1FC62C04008A80FE /* Frameworks */,
 				EDCD025F1FC62C04008A80FE /* Resources */,
+				668BD1D5EDA4BF912B30FC9C /* [CP] Embed Pods Frameworks */,
+				EB6763DA3EB4DF09D826CEED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +264,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007F7BA2F03E238F34427B36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapChat/Pods-MapChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		668BD1D5EDA4BF912B30FC9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapChatTests/Pods-MapChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736FA6E976BE980D6F8093E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95859656D8BD42ACD5D1F8B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MapChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81BFAD1590BB6F29BA68FCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MapChat/Pods-MapChat-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapChat/Pods-MapChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6763DA3EB4DF09D826CEED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MapChatTests/Pods-MapChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EDCD02491FC62C04008A80FE /* Sources */ = {
@@ -387,11 +528,13 @@
 		};
 		EDCD026B1FC62C04008A80FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692B4EE7D56A2539F2D1BD48 /* Pods-MapChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UKK8K5W2T2;
 				INFOPLIST_FILE = MapChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Project.MapChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,11 +545,13 @@
 		};
 		EDCD026C1FC62C04008A80FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 058F986E78FCA8D232CC8F63 /* Pods-MapChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UKK8K5W2T2;
 				INFOPLIST_FILE = MapChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Project.MapChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -417,6 +562,7 @@
 		};
 		EDCD026E1FC62C04008A80FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FF71CD92B4DFECF424B8959 /* Pods-MapChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -433,6 +579,7 @@
 		};
 		EDCD026F1FC62C04008A80FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4391AFA644E08D100AAF675 /* Pods-MapChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
